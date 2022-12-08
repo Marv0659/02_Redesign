@@ -1,5 +1,53 @@
+.webshop_img {
+  width: 75%;
+  border-radius: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+}
+
 .grid1_1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.box {
+  display: block;
+  aspect-ratio: 5/6;
+  border: 2px solid #c8d9db;
+  border-radius: 20px;
+}
+
+.baggrund_txt {
+  background-color: #c8d9db;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.text_layout {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  color: #c8d9db;
+  background-color: #bf6341;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+p,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
 }
