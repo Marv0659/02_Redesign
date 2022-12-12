@@ -14,11 +14,6 @@
   margin-inline: auto;
 }
 
-.grid1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .price {
   display: flex;
   flex-direction: column-reverse;
@@ -62,6 +57,11 @@ button {
   margin-bottom: 10px;
   cursor: pointer;
   width: 20%;
+  transition: all 0.2s ease;
+}
+
+.img_bag:hover {
+  scale: 1.1;
 }
 
 .price {
@@ -140,11 +140,16 @@ button {
   .shopping_bag {
     display: flex;
     flex-direction: row-reverse;
+    transition: all 0.2s ease;
   }
 
   .img_bag {
     margin: 20px;
     cursor: pointer;
+  }
+
+  .img_bag:hover {
+    scale: 1.1;
   }
 
   .price {
