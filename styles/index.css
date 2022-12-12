@@ -41,32 +41,41 @@ p {
 
 .kategorier-forside {
   display: flex;
-  align-content: space-between;
   justify-content: center;
-  gap: 13.7%;
+  gap: 3.1%;
 }
 
 .vi-tilbyder-forside {
   display: flex;
+  margin: 20px;
   grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: space-between;
+  gap: 35%;
+}
+
+.vi-tilbyder-forside2 {
+  display: flex;
+  margin: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-content: space-between;
   gap: 10%;
 }
 
 .rectangle1 {
-  height: 100px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   background-color: #555;
 }
 .rectangle2 {
-  height: 100px;
-  width: 150px;
+  height: 200px;
+  width: 250px;
   background-color: #555;
 }
 .rectangle3 {
-  height: 100px;
-  width: 140px;
+  height: 200px;
+  width: 200px;
   background-color: #555;
 }
 .rectangle4 {
@@ -75,6 +84,21 @@ p {
   background-color: #555;
 }
 .rectangle5 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle6 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle7 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle8 {
   height: 150px;
   width: 200px;
   background-color: #555;
