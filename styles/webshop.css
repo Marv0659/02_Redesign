@@ -1,62 +1,248 @@
+html {
+  --button-color: #bf6341;
+  --secondary-color: #c8d9db;
+  --header-color: #65bfbf;
+  --footer-color: #c7d9db;
+  --text-box-color: #deedf0;
+}
+
 .webshop_img {
-  width: 75%;
-  border-radius: 20px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 40px;
+  margin: auto;
 }
 
 .grid1_1_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 20px;
-  max-width: 1000px;
+  gap: 10px;
   margin-inline: auto;
+}
+
+.grid1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.price {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .box {
   display: block;
-  aspect-ratio: 5/6;
   border: 2px solid #c8d9db;
   border-radius: 20px;
 }
 
 .baggrund_txt {
-  background-color: #c8d9db;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
 .text_layout {
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 button {
   color: white;
   background-color: #bf6341;
-  padding: 10px;
+  padding: 5px;
   border-radius: 20px;
   cursor: pointer;
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-weight: bold;
 }
 
-p,
-h3,
-h4 {
+p {
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .shopping_bag {
   display: flex;
   flex-direction: row-reverse;
 }
+
 .img_bag {
-  margin: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   cursor: pointer;
+  width: 20%;
+}
+
+.price {
+  margin-bottom: 5px;
+}
+
+h1,
+h2 {
+  font-family: "Rhodium Libre", serif;
+  text-align: center;
+  font-size: 10px;
+}
+h3,
+h4 {
+  font-family: "Rhodium Libre", serif;
+  font-size: 10px;
+}
+
+h2 {
+  background-color: #c7d9db;
+  padding: 20px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+main {
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 50px;
+}
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 30px;
+  border-radius: 40px;
+  background-color: #bf6341;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .webshop_img {
+    width: 75%;
+    border-radius: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+  }
+
+  .grid1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+
+  .box {
+    display: block;
+    aspect-ratio: 5/6;
+    border: 2px solid #c8d9db;
+    border-radius: 20px;
+  }
+
+  .baggrund_txt {
+    background-color: #c8d9db;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .text_layout {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    color: white;
+    background-color: #bf6341;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+  }
+
+  .shopping_bag {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .img_bag {
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  .price {
+    font-size: 1.3rem;
+  }
+
+  .price_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1,
+  h2 {
+    font-family: "Rhodium Libre", serif;
+    text-align: center;
+  }
+  h3,
+  h4 {
+    font-family: "Rhodium Libre", serif;
+  }
+
+  h2 {
+    background-color: #c7d9db;
+    padding: 20px;
+    font-size: 2rem;
+    margin-bottom: 100px;
+  }
+
+  body {
+    background-color: #fafafa;
+  }
+
+  main {
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+  }
+
+  .button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 30px;
+    border-radius: 40px;
+    background-color: #bf6341;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
 }
