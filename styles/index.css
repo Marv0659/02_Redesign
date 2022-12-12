@@ -46,6 +46,14 @@ p {
   gap: 13.7%;
 }
 
+.vi-tilbyder-forside {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: space-between;
+  gap: 10%;
+}
+
 .rectangle1 {
   height: 100px;
   width: 150px;
@@ -60,4 +68,21 @@ p {
   height: 100px;
   width: 140px;
   background-color: #555;
+}
+.rectangle4 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+.rectangle5 {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+}
+
+.about {
+  margin-top: 20px;
+  background-color: #60b2b8cd;
+  height: 100px;
+  width: 100%;
 }
