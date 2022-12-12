@@ -1,1 +1,82 @@
+html {
+  --button-color: #bf6341;
+  --secondary-color: #c8d9db;
+  --header-color: #65bfbf;
+  --footer-color: #c7d9db;
+  --text-box-color: #deedf0;
+}
 
+h1,
+h2 {
+  font-family: "Rhodium Libre", serif;
+  text-align: center;
+}
+
+h3,
+h4 {
+  font-family: "Rhodium Libre", serif;
+  font-size: 10px;
+}
+
+h2 {
+  background-color: #c7d9db;
+  padding: 20px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+main {
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 50px;
+}
+
+@media (min-width: 800px) {
+  h1,
+  h2 {
+    font-family: "Rhodium Libre", serif;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3,
+  h4 {
+    font-family: "Rhodium Libre", serif;
+  }
+
+  h2 {
+    background-color: #c7d9db;
+    padding: 20px;
+    font-size: 2rem;
+    margin-bottom: 100px;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+  }
+
+  body {
+    background-color: #fafafa;
+  }
+
+  main {
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+  }
+}
