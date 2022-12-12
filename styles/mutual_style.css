@@ -1,3 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
-    font-family: 'Rhodium Libre', serif;
+  font-family: "Rhodium Libre", serif;
+}
+
+body {
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+main {
+  max-width: 1000px;
+  overflow: hidden;
+
+  margin-inline: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #60b2b8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }

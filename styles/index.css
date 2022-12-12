@@ -1,0 +1,63 @@
+.MedicinForside {
+  margin: 50px;
+}
+
+.forside-div,
+#MedicinForside {
+  justify-content: center;
+  display: grid;
+  grid-row: span 3;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.Forside-div-pic {
+  display: grid;
+  grid-area: 1/2/7/7;
+  z-index: -1;
+}
+
+.shapeDiv {
+  display: grid;
+  grid-area: 4/1/6/3;
+  z-index: 1;
+
+  background-color: #60b2b8cd;
+}
+
+p {
+  opacity: 100%;
+  font-family: sans-serif;
+}
+
+.forsideBeskrivelse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kategorier-forside {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  gap: 13.7%;
+}
+
+.rectangle1 {
+  height: 100px;
+  width: 150px;
+  background-color: #555;
+}
+.rectangle2 {
+  height: 100px;
+  width: 150px;
+  background-color: #555;
+}
+.rectangle3 {
+  height: 100px;
+  width: 140px;
+  background-color: #555;
+}
