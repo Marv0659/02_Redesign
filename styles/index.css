@@ -28,11 +28,6 @@
   background-color: #60b2b8cd;
 }
 
-p {
-  opacity: 100%;
-  font-family: sans-serif;
-}
-
 .forsideBeskrivelse {
   display: flex;
   justify-content: center;
@@ -216,11 +211,6 @@ img.scaled {
     z-index: 1;
 
     background-color: #60b2b8cd;
-  }
-
-  p {
-    opacity: 100%;
-    font-family: sans-serif;
   }
 
   .forsideBeskrivelse {
